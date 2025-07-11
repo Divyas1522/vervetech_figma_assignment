@@ -23,7 +23,6 @@
   justify-content: center;
   gap: 60px;
   padding-top: 21px;
-
 }
 
 .footer-container .footer-card {
@@ -65,6 +64,26 @@
   font-size: 21px;
   color: black;
   padding-bottom: 22px;
+  transition: all 0.3s ease-in;
+}
+
+.nav-row h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease-in;
+}
+
+.nav-row h3:hover {
+  transform: scale(1.1);
+}
+
+.nav-row h3:hover::after {
+  width: 100%;
 }
 
 .nav-row h4 {
@@ -73,8 +92,28 @@
   font-size: 18px;
   color: #5e6282;
   padding-top: 12px;
+  transition: all 0.3s ease-in;
 }
 
+.nav-row h4::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  width: 0;
+  height: 1px;
+  background-color: #5e6282;
+  transition: width 0.3s ease-in;
+}
+
+.nav-row h4:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.nav-row h4:hover::after {
+  width: 100%;
+}
 
 .footer-card .outbound {
   width: 214px;

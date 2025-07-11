@@ -4,6 +4,7 @@ import circles1 from "../assets/circle1.png"
 import circles2 from "../assets/circles-decore2.png"
 import sendImg from "../assets/send.png"
 import MessageBox from "../assets/icon-message.png"
+import DecoreIcons from "../assets/subscribe-imgIcons.png"
 
 const Subscribe = () => {
     return (
@@ -29,6 +30,9 @@ const Subscribe = () => {
                         <div className="send">
                             <img src={sendImg} alt="" />
                         </div>
+                    </div>
+                    <div className="decore_img">
+                        <img src={DecoreIcons} alt="" />
                     </div>
                 </div>
             </div>

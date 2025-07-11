@@ -18,6 +18,11 @@
   filter: grayscale(100%);
   position: relative;
   z-index: 2;
+  transition: all 0.3s ease-in;
+}
+
+.logo-item img:hover{
+  transform: scale(1.1);
 }
 
 .logo3 img {

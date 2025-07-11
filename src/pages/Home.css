@@ -86,6 +86,7 @@
 .cta .btn-1 {
   width: 170px;
   height: 60px;
+  cursor: pointer;
 }
 
 .btn-1 .cta-button1 {
@@ -97,8 +98,18 @@
   padding-right: 26px;
   border: none;
   border-radius: 10px;
-  background-color: #f1a501;
+  background: linear-gradient(#f1a501 100%, #e29500 0%, #ffce00 0%);
   color: #ffffff;
+}
+
+.cta-button1 {
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.cta-button1:hover {
+  transform: scale(1.1);
+  background: linear-gradient(180deg, #f1a501 , #e29500, #da5631);
 }
 
 .cta .btn-2 {

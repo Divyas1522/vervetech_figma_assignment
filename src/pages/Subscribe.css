@@ -86,7 +86,10 @@
 }
 
 .input input {
+  width: 421px;
+  height: 68px;
   border: none;
+  outline: none;
   padding-left: 14px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -113,4 +116,22 @@
   padding-right: 50px;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.subscribe-btn button:hover {
+  box-shadow: 0 8px 20px rgba(255, 125, 104, 0.5);
+  background: linear-gradient(135deg, #ff7d68 0%, #ff946d 100%);
+  border-radius: 10px;
+  scale: 1.05;
+}
+
+.sub-container .decore_img {
+  width: 153px;
+  height: 166px;
+  position: absolute;
+  left: 1116px;
+  top: 311px;
+  z-index: 5;
 }

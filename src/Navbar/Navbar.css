@@ -25,27 +25,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.navbar-logo {
-  width: 114.91px;
-  height: 33.99px;
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  align-items: center;
-  color: #000000;
-  font-size: 40px;
-  font-weight: 700;
-}
-
-.navbar-logo span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 22px;
-  height: 22px;
-  background-color: #f1a501;
-  letter-spacing: 0;
-  color: black;
-  border-radius: 50%;
+.navbar-logo img {
+  cursor: pointer;
 }
 
 .navbar-links {
@@ -60,10 +41,15 @@ body {
 
 .navbar-links .navbar-links-items {
   cursor: pointer;
-  transition: color 0.3s ease;
   font-size: 17px;
   font-weight: 400;
   font-family: "Poppins", serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-links .navbar-links-items:hover {
+  color: #df6951;
+  transform: scale(1.1);
 }
 
 .signup {
@@ -72,6 +58,10 @@ body {
   border: 1px solid #212832;
   border-radius: 5px;
   font-weight: 400;
+}
+
+.signup:hover {
+  background-color: black;
 }
 
 .navbar-links .navbar-links-items select {

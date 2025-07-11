@@ -52,6 +52,12 @@
   align-items: center;
   flex-direction: column;
   position: relative;
+  transition: all 0.3s ease-in;
+}
+
+.destination-card:hover {
+  transform: scale(1.07);
+  z-index: 1;
 }
 
 .destination-card img {
@@ -63,7 +69,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  z-index: 1;
 }
 
 .destination-card .details-card {
@@ -78,7 +83,6 @@
   position: absolute;
   bottom: 0px;
   box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.2);
-  z-index: 2;
 }
 
 .details-card .city-price {
@@ -137,6 +141,7 @@
   position: absolute;
   right: -16px;
   bottom: 0px;
+  z-index: -2;
 }
 
 .decore img {

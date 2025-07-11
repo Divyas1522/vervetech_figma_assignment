@@ -26,6 +26,7 @@ const Destination = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className="destination-card">
                         <img src={LondonImg} alt="" />
                         <div className="details-card">
@@ -39,6 +40,7 @@ const Destination = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className="destination-card">
                         <img src={EuropeImg} alt="" />
                         <div className="details-card">
@@ -52,6 +54,7 @@ const Destination = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className="decore">
                         <img src={decore} alt="" />
                     </div>
