@@ -1,0 +1,122 @@
+.testimonials-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials-section .testimonials-container {
+  width: 1165px;
+  height: 356px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials-section .testimonials-left {
+  width: 40%;
+  height: 100%;
+}
+
+.testimonials-left h4 {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #5e6282;
+}
+
+.testimonials-left h2 {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.testimonials-left img {
+  width: 87px;
+  height: 12px;
+  margin-top: 82px;
+}
+
+.testimonials-section .testimonials-right {
+  width: 60%;
+  height: 100%;
+  background-color: transparent;
+  position: relative;
+}
+
+.testimonials-right .profile-img {
+  width: 68px;
+  height: 68px;
+}
+.profile-img img {
+  position: relative;
+  z-index: 1;
+}
+
+.testimonials-right .comments {
+  width: 504px;
+  height: 245px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  position: absolute;
+  bottom: 90px;
+  left: 37px;
+  z-index: 0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials-right .second-comment {
+  position: absolute;
+  top: 124px;
+  left: 87px;
+  z-index: -1;
+}
+.comments p {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  padding-top: 28px;
+  padding-left: 34px;
+  color: #5e6282;
+}
+
+.comments h5 {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  padding-top: 34px;
+  padding-left: 34px;
+  color: #5e6282;
+}
+
+.comments h6 {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-left: 34px;
+  color: #5e6282;
+}
+
+.testimonials-right .pagination {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+}
+
+.pagination img {
+  width: 14px;
+  height: 71.5px;
+  position: absolute;
+  top: 140.5px;
+  right: 0px;
+}

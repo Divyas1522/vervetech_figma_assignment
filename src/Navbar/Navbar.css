@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.nav-container {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-left: 140.82px;
+  padding-top: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-logo {
+  width: 114.91px;
+  height: 33.99px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.navbar-logo span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  background-color: #f1a501;
+  letter-spacing: 0;
+  color: black;
+  border-radius: 50%;
+}
+
+.navbar-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #212832;
+  padding-left: 222.17px;
+  padding-right: 200.81px;
+}
+
+.navbar-links .navbar-links-items {
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Poppins", serif;
+}
+
+.signup {
+  color: #212832;
+  padding: 9px 22px;
+  border: 1px solid #212832;
+  border-radius: 5px;
+  font-weight: 400;
+}
+
+.navbar-links .navbar-links-items select {
+  background-color: transparent;
+  border: none;
+}

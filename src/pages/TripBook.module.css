@@ -1,0 +1,85 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 186px;
+  padding-right: 186px;
+  padding-top: 186px;
+}
+.parent_trip {
+  width: 1114px;
+  height: 492px;
+  display: flex;
+}
+.parent_trip .trip_child1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.parent_trip .trip_child2 {
+  width: 50%;
+  height: 100%;
+}
+.trip_child1 h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #5e6282;
+  font-family: "Poppins", serif;
+}
+.trip_child1 h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #14183e;
+  font-family: "Volkhov", serif;
+}
+.trip_lists {
+  width: 395px;
+  height: 289px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.trip_lists .trip_list1 {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  gap: 15px;
+}
+.trip_list1 .trip_list_img {
+  width: 47px;
+  height: 47px;
+}
+.trip_list_text {
+  width: calc(100% - 47px);
+  height: 100%;
+}
+.trip_list_text h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #5e6282;
+  font-family: "Poppins", serif;
+}
+.trip_list_text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5e6282;
+  line-height: 125%;
+  font-family: "Poppins", serif;
+}
+.trip_post {
+  width: 485px;
+  height: 459px;
+  position: relative;
+}
+
+.trip_post img{
+    position: absolute;
+    top: -130px;
+    left: -85px;
+    z-index: 1;
+}
+
